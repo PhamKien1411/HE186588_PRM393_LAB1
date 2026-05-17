@@ -138,7 +138,6 @@ class _ProductPageState extends State<ProductPage> {
       body: Column(
         children: [
 
-          // SEARCH
 
           Padding(
             padding: EdgeInsets.all(10),
@@ -153,7 +152,6 @@ class _ProductPageState extends State<ProductPage> {
             ),
           ),
 
-          // SORT BUTTONS
 
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -173,7 +171,6 @@ class _ProductPageState extends State<ProductPage> {
 
           SizedBox(height: 10),
 
-          // PRODUCT LIST
 
           Expanded(
             child: ListView.builder(
@@ -203,8 +200,7 @@ class _ProductPageState extends State<ProductPage> {
                     trailing: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-
-                        // EDIT
+                        
 
                         IconButton(
                           icon: Icon(Icons.edit),
@@ -213,7 +209,6 @@ class _ProductPageState extends State<ProductPage> {
                           },
                         ),
 
-                        // DELETE
 
                         IconButton(
                           icon: Icon(Icons.delete),
