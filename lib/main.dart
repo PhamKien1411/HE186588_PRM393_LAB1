@@ -138,7 +138,6 @@ class _ProductPageState extends State<ProductPage> {
       body: Column(
         children: [
 
-
           Padding(
             padding: EdgeInsets.all(10),
             child: TextField(
@@ -200,7 +199,6 @@ class _ProductPageState extends State<ProductPage> {
                     trailing: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        
 
                         IconButton(
                           icon: Icon(Icons.edit),
@@ -208,7 +206,6 @@ class _ProductPageState extends State<ProductPage> {
                             updateProduct(index);
                           },
                         ),
-
 
                         IconButton(
                           icon: Icon(Icons.delete),
